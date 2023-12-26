@@ -1,0 +1,11 @@
+{
+  "references": [
+    {
+      "path": "./packages/client"
+    },
+    {
+      "path": "./packages/shared"
+    }
+  ],
+  "files": []
+}

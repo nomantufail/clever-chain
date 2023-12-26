@@ -1,0 +1,20 @@
+Group IP,Title,First Name,Middle Name,Last Name,Date of Birth,Address Line 1 - Current,Address Line 2 - Current,City - Current,State - Current,Postal Code - Current,Country - Current,Address Line 1 - Previous,Address Line 2 - Previous,City - Previous,State - Previous,Postal Code - Previous,Country - Previous,Gender,Place of Birth,Passport Number,Occupation,Nationality,Unknown Phone,IP Address,Other Information,AccountType,Other Information
+10,Mr,Mario,,Bros,10/01/1981,1 High Street,,London,,W1 54P,UK,,,1 High Street,,,UK,Male,,,,Italian,,1,Low,,
+11,Mr,Jack,Mario,Bros,12/01/1982,,,,,,Mexico,,,,,,,,"Saltillo, Coahuila, Mexico",,,,,,,,
+20,Mr,Silvio,,Berlusconi,29/09/1936,"Via del Plebiscito, 102 Roma",,, Lazio ,00186,Italy,Piazza Colonna,,Roma,,,,male,Milan,,former prime minister,Italian,,2,Medium,,BRLSLV36P29F205W
+21,Mr,Silvio,,Berlusconi,29/11/1936,Piazza Colonna,,Roma, Lazio ,00186,Italia,,,,,,,male,Milan,,former prime minister,Italian,,2,Medium,,BRLSLV36P29F205W
+22,Mr,Silvio,,Berlusconi,01/01/1936,,,Arcore,,,Italy,,,,,,,male,,,,,,,,,
+20,Mr,Silvio,,Berlusconi,29/09/1936,"Via del Plebiscito, 102 Roma",,, Lazio ,00186,Italy,Piazza Colonna,,Roma,,,,male,Milan,,former prime minister,Italian,,2,Medium,,BRLSLV36P29F205W
+30,Mrs,Veronica,,Pivetti,10/02/1965,,,,,,Italy,,,,,,,,,,,,,,,,
+40,Mr,�Aleksey ,Leonidovich,FISUN,1965,"Solomennoi Storozhki avenue 5, block 1, flat 17 ",,Moscow ,,,Russian Federation,,,,,,,,,,,Russia,,,,,
+50,Mr,John,,Smith,01/09/1990,Stavely Close,,London,England,,United Kingdom,,,,,,,,,,,,,,,,
+60,Mr, Peter,James,Scott,01/01/1961,St Nicholas Avenue,,HORNCHURCH,Essex ,RM12 4RH,United Kingdom,,,,,,,,,,,,,,,,
+61,Mr, Peter,J,Scott,01/01/1961,,,,,RM12,United Kingdom,,,,,,,,,,,,,,,,
+62,Mr, Peter,Joaquim,Scott,01/01/1961,,,HORNCHURCH,,,United Kingdom,,,,,,,,,,,,,,,,
+63,Mr, Peter,,Scott,01/01/1961,,,,,,United Kingdom,,,,,,,,,,,,,,,,
+64,Mr, Peter,J,Scott,01/01/1961,,,,,,Italy,,,,,,,,,,,United Kingdom,,,,,
+65,Mr, Peter,J,Scott,01/01/1961,,,,,,Italy,,,,,,,,United Kingdom,,,,,,,,
+66,Mr, Peter,,Scott,01/01/1960,,,,,,Italy,,,,,,,,,,,,,,,,
+67,Mr,Stephen,James,Scott,,5 Beacon Close,,Beaconsfield,England,HP9 1DU,United Kingdom,,,,,,,,,,,,,,,,
+67,Mr,Stephen,,Scott,,,,,England,HP9 1DU,United Kingdom,,,,,,,,,,,,,,,,
+68,Mr,Stephen,,Scott,,,,,,,United Kingdom,,,,,,,,,,,,,,,,

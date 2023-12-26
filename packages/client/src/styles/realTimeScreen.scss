@@ -1,0 +1,44 @@
+@import './colors';
+.tabs-header{
+    background-color: $color-white;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid $color-normalGrey;
+    border-bottom: 0;
+}  
+
+.tabs{
+    padding: 2rem 1.5rem 0;
+    a{
+        padding: 8px 4px;
+        border-bottom: 2px solid transparent;
+
+        &:first-child{
+            margin-right: 24px;
+        }
+        &:hover h4{
+            color:$color-green;
+        }
+    }
+}
+
+.tabs a.active{
+    border-color:$color-green;
+}
+.tabs a.active h4{
+	color: $color-green;
+}
+
+
+.collapsable-form .additional-fields{
+    display: none;
+}
+.collapsable-form.opened .custom-actions{
+    display:none;
+}
+.collapsable-form.opened .additional-fields{
+    display: block;
+}
+.collapsable-form.opened svg{
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}

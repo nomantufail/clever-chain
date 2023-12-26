@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS clever_chain.temp_individual(
+   id uuid,
+   job_id uuid,
+   name varchar,
+   date_of_birth date,
+   address_line_1 varchar,
+   address_line_2 varchar,
+   current_country varchar,
+   current_city varchar,
+   current_postal_code varchar,
+   constant_val varchar,
+   created_at timestamp,
+   updated_at timestamp,
+   deleted_at timestamp,
+   created_by uuid,
+   updated_by uuid,
+   deleted_by uuid,
+   is_deleted boolean,
+   PRIMARY KEY(constant_val,id, name)
+   );

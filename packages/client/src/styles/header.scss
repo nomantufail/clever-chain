@@ -1,0 +1,19 @@
+@import './colors';
+.dropdown-toggle::after{
+  display:none !important;
+}
+.dropdown-toggle{
+  background-color: #2D2C57 !important;
+}
+.dropdown img{
+  vertical-align: bottom;
+}
+.userPic{
+  vertical-align: bottom;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
+    margin-right: 0.5rem;
+}

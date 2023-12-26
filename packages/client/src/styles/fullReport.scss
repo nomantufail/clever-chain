@@ -1,0 +1,121 @@
+@import './colors';
+
+.upper-case{
+  text-transform: uppercase;
+}
+
+.report-wrapper{
+  padding: 3rem 4rem 4rem;
+}
+.line-divider{
+  background-color: #E4E7F0;
+  height: 1px;
+  margin: 2rem 0 0.5rem;
+}
+.finding{
+  background: #e7f8f5;
+  padding: 1rem;
+}
+.report-info p{
+  margin: 2px 0;
+}
+.source-links{
+  padding: 0;
+}
+.source-links li{
+  list-style: none;
+  margin: 0.75rem 0;
+}
+.report-wrapper p{
+  font-size: 14px;
+}
+.report-wrapper li{
+  font-size: 14px;
+}
+.hover-color-green:hover{
+  color: #11BC97;
+}
+.report-wrapper p.badge {
+  margin: 0;
+  vertical-align: bottom;
+  font-size: 11px;
+  font-weight: 500 !important;
+  line-height: 1.2;
+}
+.report-info p.badge{
+  border: 1px solid #E66A8B;
+  margin-left: 2px;
+}
+
+.badge.partial {
+  border: 1px solid #F4B717;
+  background: rgba(251, 188, 6, 0.15);
+  color: #636A7D;
+}
+
+.report-wrapper .table thead th{
+  border-bottom: 1px solid #dee2e6;
+  border-top: 0;
+}
+.badge.exact{
+  border: 1px solid $color-pink;
+  background: rgba(230, 106, 139, 0.2);
+  color: #E66A8B;
+}
+.badge.different{
+  border: 1px solid gray;
+  color: gray;
+}
+.report-wrapper .table td:nth-child(1){
+  width: 13%;
+  min-width: 13%;
+}
+.report-wrapper .table td:nth-child(2){
+  width: 16%;
+  min-width: 16%;
+}
+.report-wrapper .table td:nth-child(3){
+  width: 16%;
+  min-width: 16%;
+}
+.report-wrapper .table td:nth-child(4){
+  width: 30%;
+  min-width: 30%;
+}
+.report-wrapper .table td:nth-child(5){
+  width: 20%;
+  min-width: 20%;
+}
+.report-wrapper .table td{
+  border-top: 0;
+  font-size: 14px;
+}
+.report-wrapper .table td, .report-wrapper .table th {
+  padding: 0.35rem 0.75rem;
+}
+.finding .table td:nth-child(1){
+  width: 12%;
+  min-width: 12%;
+}
+.finding  .table td:nth-child(2){
+  width: 35%;
+  min-width: 35%;
+}
+.finding  .table td:nth-child(3){
+  width: 60%;
+  min-width: 60%;
+}
+.report-wrapper td ul{
+  padding: 0;
+}
+.report-wrapper td ul li{
+  list-style: none;
+  padding: 0.35rem 0;
+}
+.finding .table thead th{
+  border: 0;
+}
+@media print {
+  .report-wrapper .table td, .report-wrapper .table th {
+    background-color: transparent !important;           }
+}

@@ -1,0 +1,15 @@
+diff --git a/node_modules/cassandra-migration/lib/index.js b/node_modules/cassandra-migration/lib/index.js
+index 87e1b91..8630f75 100644
+--- a/node_modules/cassandra-migration/lib/index.js
++++ b/node_modules/cassandra-migration/lib/index.js
+@@ -130,6 +130,10 @@
+           loadBalancing: whiteListPolicy
+         };
+       }
++      if (cassandraConfig.sslOptions) {
++        cassandraConfig.sslOptions.cert = FS.readFileSync(cassandraConfig.sslOptions.cert, 'utf8')
++        cassandraConfig.sslOptions.key = FS.readFileSync(cassandraConfig.sslOptions.key, 'utf8')
++      }
+       client = new cassandra.Client(cassandraConfig);
+       client.connect(function(error) {
+         if (error != null) {

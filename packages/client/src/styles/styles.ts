@@ -1,0 +1,7 @@
+import './globalStyles.scss'
+import './header.scss'
+import './loginPage.scss'
+import './sidebar.scss'
+import './batchScreen.scss'
+import './realTimeScreen.scss'
+import './fullReport.scss'

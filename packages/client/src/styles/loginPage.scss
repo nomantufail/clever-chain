@@ -1,0 +1,45 @@
+@import './colors';
+
+.login{
+  background-color: $color-darkBlue;
+	height: 100vh;
+}
+.login-form {
+  max-width: 400px;
+  margin: 3rem auto 0 !important;
+  font-weight:400;
+}
+
+.btn-login {
+  background-color: $color-pink;
+  font-size: 16px;
+  border: 0;
+  border-radius: 2px;
+  padding: 8px 16px;
+  color: $color-white;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.login .form-control {
+  background: transparent !important;
+  color: $color-white !important;
+  border-radius: 2px !important;
+  height: 40px !important;
+}
+.custom-control-label::before, .custom-control-label::after{
+  background-color: transparent !important;
+  top: 0.15rem !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: $color-pink;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  color: $color-white;
+  background-color: $color-pink;
+}
+.any-query{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}

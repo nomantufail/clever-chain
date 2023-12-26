@@ -1,0 +1,104 @@
+{
+  "name": "Thomas Alan smith",
+  "matchCriteria": "Exact",
+  "occupation": "",
+  "matchCriteriaDescription": [
+    "Exact name",
+    "Exact Date of birth"
+  ],
+  "scannedDate": "02/02/2022",
+  "generalInformation": {
+    "firstName": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    },
+    "middleName": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    },
+    "lastName": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    },
+    "dateOfBirth": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    }
+  },
+  "addressAndLocation": {
+    "currentAddress": {
+      "matchCriteria": "Exact",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "25 high street",
+      "matchedEntity": "ListValue here"
+    },
+    "city": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "city",
+      "matchedEntity": ""
+    },
+    "country": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    },
+    "postalCode": {
+      "matchCriteria": "",
+      "matchCriteriaNumeric": 0,
+      "internalInfo": "",
+      "matchedEntity": ""
+    }
+  },
+  "otherAddresses": [
+    "138 Bond Street, E26 23, London, UK",
+    "138 Bond Street, E26 23, London, UK",
+    "138 Bond Street, E26 23, London, UK",
+    "138 Bond Street, E26 23, London, UK",
+    "138 Bond Street, E26 23, London, UK"
+  ],
+  "findings": [
+    {
+      "key": "Source",
+      "value": ["The Telegraph"]
+    },
+    {
+      "key": "Category | Sub-category",
+      "value": ["Enforcement | Organized crime"]
+    },
+    {
+      "key": "Category | Sub-category",
+      "value": ["Enforcement | Organized crime"]
+    },
+    {
+      "key": "Category | Sub-category",
+      "value": ["Enforcement | Organized crime"]
+    },
+    {
+      "key": "Associations",
+      "value": [
+        "Relationship (PEP:Family Member): lastname, first, ID number ",
+        "Relationship (PEP:Family Member): lastname, first, ID number ",
+        "Relationship (PEP:Family Member): lastname, first, ID number ",
+        "Relationship (PEP:Family Member): lastname, first, ID number ",
+        "Relationship (PEP:Family Member): lastname, first, ID number "
+      ]
+    }
+  ],
+  "profileNotes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "sourceLinks": [
+    "http://lorumipsum.com/abc/def",
+    "http://lorumipsum.com/abc/def",
+    "http://lorumipsum.com/abc/def",
+    "http://lorumipsum.com/abc/def"
+  ]
+}

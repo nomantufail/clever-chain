@@ -1,0 +1,66 @@
+{
+  "name": "clever-chain",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "migrate": "npm run migrate --workspace=packages/server",
+    "start:dev": "concurrently --kill-others \"npm run start-client:dev\" \"npm run start-server:dev\"",
+    "postinstall": "patch-package",
+    "apply-patches": "patch-package",
+    "prebuild-client": "npm run build-shared-service",
+    "prebuild-server": "npm run build-shared-service",
+    "start-client:dev": "npm run start:dev --workspace=packages/client",
+    "build-client:prod": "npm run build:prod --workspace=packages/client",
+    "prod-server": "npm start --workspace=packages/server",
+    "start-server:test": "npm run dev:testing --workspace=packages/server",
+    "start-server:dev": "npm run dev --workspace=packages/server",
+    "build-server": "npm run build --workspace=packages/server",
+    "test-server": "test --workspace=packages/server",
+    "start-batch:dev": "npm run dev --workspace=packages/batch-engine",
+    "build-shared-service": "npm run build --workspace=packages/shared",
+    "test:client": "npm run test --workspace=packages/client",
+    "test:dev": "npm run test:dev --workspaces",
+    "lint": "npm run lint --workspaces",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner -Dproject.settings=sonar-project.properties"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/cron": "^2.0.0",
+    "@types/crypto-js": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "concurrently": "^7.0.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --no-ignore --fix"
+    ],
+    "*.{json,md,css,scss}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "cron": "^2.1.0",
+    "crypto-js": "^4.1.1",
+    "module-alias": "^2.2.2",
+    "patch-package": "^6.4.7",
+    "path": "^0.12.7",
+    "tslib": "^2.3.1"
+  }
+}

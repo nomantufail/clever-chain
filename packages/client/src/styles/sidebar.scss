@@ -1,0 +1,37 @@
+@import './colors';
+/*Sidebar Css*/
+.sidebar {
+	background: $color-white;
+	color: $color-white;
+	transition: all 0.3s;
+	position: fixed;
+	height: 100vh;
+	min-width: 240px;
+	max-width: 240px;
+  border-right: 1px solid $color-normalGrey;
+  padding: 1rem  0;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+.sidebar li svg{
+  position: relative;
+  top: -1px;
+}
+.sidebar li a{
+  display: block;
+  padding: 4px 16px;
+  margin: 1rem 0;
+}
+.sidebar li.active a, .sidebar li a:hover{
+  background: $color-lightGrey;
+  color: $color-monoIntenseGrey !important;
+  border-right: 4px solid $color-green;
+}
+.sidebar ul li.active svg path, .sidebar li a:hover svg path{
+  fill: $color-green;
+}
+

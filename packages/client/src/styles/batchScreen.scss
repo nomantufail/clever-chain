@@ -1,0 +1,214 @@
+@import './colors';
+
+.progress {
+  height: 4px !important;
+  border-radius: 1rem !important;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  right: 0;
+}
+
+.progress .bg-green {
+  background-color: $color-green;
+}
+
+.upload-file .progress.invisible {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.upload-file .progress.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.upload-file input[type="file"] {
+  opacity: 0;
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.upload-file button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 47px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: $color-white !important;
+}
+
+.batchJobsListing li {
+  border: 1px solid $color-normalGrey;
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 1rem !important;
+}
+
+.batchJobsListing li h6 {
+  color: #222735;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.job-status, .batchJobsListing li p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.batchJobsListing li p {
+  color: #222735;
+}
+
+.batch-job-col span {
+  font-size: 12px;
+  margin-bottom: 16px;
+  display: block;
+  color: #636A7D;
+}
+
+.batchJobsListing li .right-fields {
+  border-left: 1px solid $color-normalGrey;
+  padding-left: 16px;
+  flex: 0 0 80%;
+}
+
+.job-entities .company {
+  width: 200px;
+}
+
+.tool-tip {
+  position: absolute;
+  z-index: 99999999999;
+  color: $color-white;
+  background: #222735 !important;
+  padding: 8px 12px;
+  top: -60px !important;
+  left: 16px !important;
+  width: 220px;
+  border-radius: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tool-tip::after {
+  position: absolute;
+  background-color: #222735;
+  height: 14px;
+  width: 14px;
+  content: "";
+  transform: rotate(45deg);
+  left: 24px;
+}
+
+.tag:hover .tool-tip {
+  opacity: 0.85;
+  visibility: visible;
+}
+
+.result-list li .icon {
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.result-list li.opened .icon {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.t-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+
+.t-row span:first-child {
+  width: 16%;
+  min-width: 16%;
+}
+
+.t-row span:last-child {
+  width: 6%;
+  min-width: 6%;
+}
+
+.t-row span {
+  font-size: 13px;
+  width: 15.5%;
+  min-width: 15.5%;
+  padding: 1rem 0.5rem;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.result-summary .col:first-child {
+  text-align: right;
+}
+
+.result-summary {
+  width: 86%;
+  padding: 2rem 0;
+}
+
+.result-summary p {
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  height: 19px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.result-summary .internal-info {
+  min-width: 150px;
+}
+
+.result-summary .badge {
+  margin-bottom: 1rem;
+  display: block;
+  width: max-content;
+  line-height: 1.5;
+}
+
+.emptySpace {
+  opacity: 0;
+}
+
+.result-summary > div:nth-child(2) {
+  margin-right: 2.1rem;
+}
+
+.result-summary .badge {
+  background-color: $color-white;
+}
+
+.result-summary .badge.exact {
+  border: 1px solid $color-pink;
+  box-shadow: 0px 2px 8px rgba(230, 106, 139, 0.7);
+  color: $color-white;
+  background-color: $color-pink;
+}
+
+.result-summary .badge.partial {
+  border: 1px solid $color-yellow;
+}
+
+.result-summary .badge.notavailable {
+  border: 1px solid $color-normalGrey;
+}
+
+.result-summary .badge.different {
+  border: 1px solid $color-pink;
+  box-shadow: 0px 2px 8px rgba(230, 106, 139, 0.7);
+  color: $color-pink;
+}

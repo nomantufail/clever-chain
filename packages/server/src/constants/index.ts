@@ -1,0 +1,10 @@
+export const tokenSignKey = 'shhhhh';
+export const DB_CONSTANT_VAL = 'constantVal';
+export const saltRounds = 10; // for password encryption
+export const DEFAULT_PAGE_SIZE = 10; // for password encryption
+export const RootLikelihood = ['Exact', 'Very High', 'High', 'Medium', 'Low', 'Very Low'];
+export const MatchLikelihood = ['Exact', 'Partial', 'Different', 'Not Available'];
+export const constantVal = 'constantVal';
+export const jobTitleMonitorIndividual = 'Real-Time Individuals';
+export const jobTitleMonitorBusiness = 'Real-Time Businesses';
+export const monitoredJob = 'monitored job';

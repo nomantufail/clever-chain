@@ -1,0 +1,26 @@
+{
+  "migrationsDir": "src/migrations",
+  "quiet": false,
+  "cassandra": {
+    "contactPoints": [ "127.0.0.1"],
+    "datacenterName": "datacenter1",
+    "localDataCenter": "datacenter1",
+    "keyspace": "clever_chain",
+    "protocolOptions": {
+      "port": 9042
+    },
+    "socketOptions": {
+      "connectTimeout": 15000
+    },
+    "credentials": {
+      "username": "cassandra",
+      "password": "cassandra"
+    },
+    "sslOptions": {
+      "host": "127.0.0.1",
+      "port": 9042,
+      "cert": "./cassandra_data/cleverchain.crt",
+      "key": "./cassandra_data/cleverchain_private.key"
+    }
+  }
+}
